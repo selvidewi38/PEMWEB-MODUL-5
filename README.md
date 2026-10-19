@@ -1,0 +1,14 @@
+1. Pengertian Bootstrap
+   Bootstrap adalah framework CSS yang digunakan untuk mempermudah pembuatan tampilan website agar lebih menarik, rapi, dan responsif. Bootstrap menyediakan berbagai komponen dan class siap pakai, seperti tombol, form, navigasi, dan layout, sehingga pengembang tidak perlu menulis seluruh kode CSS dari awal. Dengan bootstrap, proses pembuatan website menjadi lebih mudah dan efisien
+
+2. Memasang Bootstrap
+   Ada beberapa cara untuk menggunakan Bootstrap pada sebuah project. Pertama, menggunakan CDN (Content Delivery Network) dengan menambahkan link CSS dan JavaScript Bootstrap ke dalam file HTML. Kedua, mengunduh file Bootstrap dari website resminya dan menyimpannya di dalam folder project. Ketiga, menggunakan npm (Node Package Manager) untuk memasang Bootstrap melalui terminal. Keempat, menggunakan package manager seperti Yarn untuk memasang Bootstrap dan mengelola dependensinya.
+
+3. Grid dan Breakpoint
+   Grid adalah sistem tata letak pada Bootstrap yang digunakan untuk mengatur posisi dan ukuran elemen website menggunakan baris (row) dan kolom (column). Sistem grid Bootstrap menggunakan 12 kolom yang dapat dibagi sesuai kebutuhan. Sementara itu, breakpoint adalah batas ukuran layar yang digunakan untuk menyesuaikan tampilan website pada berbagai perangkat, seperti HP, tablet, dan komputer. Contoh class grid berdasarkan breakpoint adalah `col-sm-6`, `col-md-4`, dan `col-lg-3`. Dengan menggunakan grid dan breakpoint, tampilan website dapat menyesuaikan ukuran layar perangkat yang digunakan.
+
+4. Class Bootstrap
+   Bootstrap menyediakan berbagai class yang dapat digunakan untuk mengatur tampilan website dengan lebih mudah. Class `container` digunakan untuk menampung dan mengatur konten website, sedangkan `row` digunakan untuk membuat baris pada sistem grid. Class `col` digunakan untuk membagi konten ke dalam kolom. Class `btn btn-primary` digunakan untuk membuat tombol dengan warna utama Bootstrap. Class `text-center` digunakan untuk membuat teks rata tengah, class `img-fluid` digunakan untuk membuat gambar responsif, dan class `mt-3` digunakan untuk memberikan jarak margin pada bagian atas elemen. Dengan memanfaatkan class tersebut, pengembang dapat mengatur tampilan website tanpa harus menulis banyak kode CSS tambahan.
+
+5. Gambar Reponsif
+   Cara membuat gambar responsif pada Bootstrap adalah dengan menambahkan class `img-fluid` pada tag HTML `<img>`. Class ini membuat gambar menyesuaikan lebar wadahnya dengan tetap mempertahankan perbandingan antara lebar dan tinggi gambar. Contoh penggunaannya adalah `<img src="foto.jpg" class="img-fluid" alt="Foto">`. Dengan menggunakan class `img-fluid`, gambar dapat menyesuaikan ukuran layar perangkat, seperti HP, tablet, dan komputer, sehingga tidak melebihi lebar wadahnya dan tampilan website menjadi lebih responsif.
